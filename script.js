@@ -1,6 +1,4 @@
-function alert(){
-    alert("Alertado quedas")
-    }
+
    // sidabar´s code
    function w3_open() {
     var x = document.getElementById("mySidebar");
