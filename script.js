@@ -2,9 +2,9 @@
    // sidabar´s code
    function w3_open() {
     var x = document.getElementById("mySidebar");
-    x.style.width = "20%";
-    x.style.fontSize = "40px";
-    x.style.paddingTop = "10%";
+    x.style.width = "15%";
+    x.style.fontSize = "30px";
+    x.style.paddingTop = "7%";
     x.style.display = "block";
 }
 function w3_close() {
@@ -64,7 +64,7 @@ function move() {
     var width = 5;
     var id = setInterval(frame, 10);
     function frame() {
-        if (width == 100) {
+        if (width == 75) {
             clearInterval(id);
         } else {
             width++;
