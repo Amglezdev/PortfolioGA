@@ -72,4 +72,18 @@ function move() {
             elem.innerHTML = width * 1 + '%';
         }
     }
+function validate(){
+
+    var mail = document.getElementById("mail").value
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/.test(mail)){
+        alert("La dirección de email " + valor + " es correcta.");
+       } else {
+        alert("La dirección de email es incorrecta.");
+    }
+    var name = document.getElementById("name").value
+    if(value === null && value === "      "){
+        alert("Name cannot be null")
+        return false
+        }
+  
 }    
