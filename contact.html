@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,35 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="custom.css">
+
     <title>Document</title>
 </head>
+
 <body>
-    <form action="get">
-        <label for="mail">Email</label>
-        <input type="text" id="mail">
-        <label for="name">Name</label>
-        <input type="text" id="name">
-        <label for="phonen">Phone number</label>
-        <input type="text" id="phonen">   
-        <button class="" onsubmit="validate()">Send</button>
-    </form>
-    
+    <div class="customDiv">
+        <div class="container">
+            <div class="row">
+                <form action="get">
+                    <div class="col-sm-8 row-">
+                        <label for="mail">Email</label>
+                        <input type="text" id="mail">
+                    </div>
+                    <div class="col-sm-8">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="col-sm-8">
+                        <label for="phonen">Phone number</label>
+                        <input type="text" id="phonen">
+                    </div>
+                    <div class="col-sm-8">
+                        <button class="" onsubmit="validate()">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
