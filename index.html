@@ -6,25 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="script.js"></script>
     <title>Portfolio</title>
 </head>
 
 <body>
     <header class="w3-container w3-theme w3-padding" id="myHeader">
-        <i onclick="w3_open()" ondblclick="w3_close()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i>
+        <button onclick="w3_open()" ondblclick="w3_close()" class="btn btn-light btn-sm" name="Menu">
         <div class="w3-center">
-            <h4 style="text-align: left;">Portfolio</h4>
+            <h4 class="col-md-6">Portfolio</h4>
         </div>
         </div>
     </header>
     <nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
         <h1 class="w3-xxxlarge w3-text-theme">Index</h1>
         <a href="#" class="w3-bar-item w3-button">Homepage</a>
-        <a href="#" class="w3-bar-item w3-button">About me </a>
-        <a href="#" class="w3-bar-item w3-button">Cool sites</a>
+        <a href="https://github.com/Amglezdev" class="w3-bar-item w3-button">GitHub</a>
+        <a href="" class="https://gitlab.com/Angel.Ofixial">GitLab</a>
         <a href="#" class="w3-bar-item w3-button">Contact</a>
-        <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
+        <button class="btn btn-light" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>
     </nav>
 
     <div class="w3-row-padding">
